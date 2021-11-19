@@ -43,7 +43,7 @@ Our final step was to calculate the predicted ROI for each of these 13 zip codes
 - 78626: $16,826 (7.1% ROI)
 - 78756: $31,101 (6.3% ROI)
 
-![Final Comparison Bar Chart](https://github.com/Shoemaker703/time_series_project/blob/main/Data/Final Chart.png)
+![Final Comparison Bar Chart](https://github.com/Shoemaker703/time_series_project/blob/main/Data/Final_Chart.png)
 
 ## Conclusions
 
