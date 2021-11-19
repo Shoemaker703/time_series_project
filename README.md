@@ -43,6 +43,8 @@ Our final step was to calculate the predicted ROI for each of these 13 zip codes
 - 78626: $16,826 (7.1% ROI)
 - 78756: $31,101 (6.3% ROI)
 
+![Final Comparison Bar Chart](https://github.com/Shoemaker703/time_series_project/blob/main/Data/Final Chart.png)
+
 ## Conclusions
 
 Our final time series forecast model produced better ROI than our baseline model for all five of our zip code recommendations. We are confident in these predictions given that our model accounted for 99% or more of the explained variance in each of these zip codes. These results are further bolstered by the use of a train-test split, which helps prevent overfitting. 
@@ -55,20 +57,19 @@ Given these results, here are our recommendations to the stakeholders:
 
 ## Information
 
-Check out our [notebook](https://github.com/Shoemaker703/time_series_project/blob/main/Project4_Main_Notebook.ipynb) for a more thorough discussion of our project, as well as our [presentation](https://github.com/andrewwhitman/BirdConservation/blob/main/presentation.pdf).
+Check out our [notebook](https://github.com/Shoemaker703/time_series_project/blob/main/Project4_Main_Notebook.ipynb) for a more thorough discussion of our project, as well as our [presentation](https://github.com/Shoemaker703/time_series_project/blob/main/Presentation.pdf).
 
 ## Repository Structure
 
 ```
 
-├── images                              <- folder containing images for README
+├── Data                                <- folder containing data for the project
 │   └── ...
-├── notebooks                           <- folder containing additional notebooks for data exploration and modeling
+├── Notebooks                           <- folder containing additional notebooks for data exploration and modeling
 │   └── ...
 ├── .gitignore                          <- file specifying files/directories to ignore
-├── BirdConservation.ipynb              <- notebook detailing the data science process containing code and narrative
+├── Project4_Main_Notebook.ipynb        <- notebook detailing the data science process containing code and narrative
 ├── README.md                           <- Top-level README
-├── presentation.pdf                    <- presentation slides for a business audience
-└── utils.py                            <- Contains helper function for model evaluation
+└── presentation.pdf                    <- presentation slides for a business audience
 
 ``` 
